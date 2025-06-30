@@ -1,0 +1,11 @@
+{
+  "name": "batchreplacemodule",
+  "version": "1.0.0",
+  "description": "批量模块替换插件，用于在 Webpack 构建过程中根据 replacementMap 实现模块路径的自动替换和兜底查找。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ghost2113",
+  "license": "MIT"
+}
