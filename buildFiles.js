@@ -16,7 +16,7 @@ async function buildFiles() {
                     result.push(...subFiles);
                 } else if (entry.isFile()) {
                     const trunkFilePath = resolve(trunkSrcDir, entryRelPath);
-                    filesMap.set(entryAbsPath, trunkFilePath);
+                    filesMap.set(trunkFilePath, entryAbsPath);
                 }
             }
             return result;
